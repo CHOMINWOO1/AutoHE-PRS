@@ -136,6 +136,13 @@ autohe-prs plaintext --dosage data/harmonized/dosage.csv --weights data/harmoniz
 
 이 프로젝트는 데이터 정합성, 제약 검증, 예측모델의 오차 진단, 실패 후보 보존 및 실측 기반 의사결정을 연결한다. 임상적으로 검증된 질병 위험 예측 도구는 아니다. [데이터 출처](docs/data_sources.md)와 [기존 측정 결과](docs/current_results.md)에 입력 및 backend별 맥락을 기록했다.
 
+
+## 시각화된 결과와 진행 상태
+
+![실험 및 검증 결과](docs/portfolio-results/results.png)
+
+[상세 결과·진행 상태·보완 과제·보안 범위](docs/portfolio-results/README.md)에서 근거 자료와 재현 코드를 확인할 수 있다.
+
 ## 공개 범위와 추가 문서
 
 이 저장소는 원래 작업 폴더에서 핵심 코드·테스트·설정·작은 예제·대표 결과를 선별한 공개본이다. 대용량 데이터·가중치, 인증정보, 내부 실행 기록과 중복 문서 생성 산출물은 제외했다. 기존 논문·실험 수치는 기록된 결과이며 이번 README 개정에서 재측정하지 않았다.

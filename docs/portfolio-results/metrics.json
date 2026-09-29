@@ -1,0 +1,75 @@
+{
+  "subtitle": "Historical PGS004941 chr22 experiment; 51,225 matched variants, four public-data samples.",
+  "panels": [
+    {
+      "title": "Homomorphic evaluation median",
+      "labels": [
+        "CKKS",
+        "BFV",
+        "BGV"
+      ],
+      "values": [
+        0.3586,
+        22.9247,
+        9.696
+      ],
+      "xlabel": "Seconds",
+      "xlim": [
+        0,
+        30
+      ]
+    },
+    {
+      "title": "Total median",
+      "labels": [
+        "CKKS",
+        "BFV",
+        "BGV"
+      ],
+      "values": [
+        0.9871,
+        24.8219,
+        10.3997
+      ],
+      "xlabel": "Seconds",
+      "xlim": [
+        0,
+        33
+      ]
+    }
+  ],
+  "boundary": "Schemes use different valid ring dimensions. This is an implementation comparison on one workload.\nCost-model time prediction error was 554.9%; measured validation remains necessary.",
+  "sources": [
+    "reports/autohe_smoke/EXPERIMENT_REPORT.md",
+    "THREAT_MODEL.md",
+    "VALIDATION.md"
+  ],
+  "interpretation": "이 workload에서 CKKS evaluation median은 0.3586초였다. 다만 scheme별 유효 파라미터가 다르며 전반적인 scheme 우위를 뜻하지 않는다. 비용모델 예측 2.3486초와 실측 간 오차가 554.9%였으므로 순위화와 절대 시간 예측을 구분해야 한다.",
+  "progress": [
+    [
+      "정합화·계획 탐색·검증",
+      "핵심 파이프라인 구현"
+    ],
+    [
+      "실제 데이터 실험",
+      "기존 chr22·4표본 기록 보유"
+    ],
+    [
+      "공개본 테스트",
+      "22개 통과, 선택 조건 5개 건너뜀"
+    ],
+    [
+      "실제 backend 재실행",
+      "이번 공개 과정에서 미실행"
+    ]
+  ],
+  "next": [
+    "다양한 표본·변이 수에서 비용모델 보정과 일반화 평가",
+    "동일 budget의 baseline search 비교",
+    "지원 환경에서 OpenFHE 전체 benchmark 재실행"
+  ],
+  "security": "평가자는 semi-honest로 가정한다. 악의적 평가자, 키 탈취, threshold/collusion, 평문 결과의 DP 보호는 현재 범위 밖이며 timing·크기·공개 weight는 노출된다.",
+  "title": "AutoHE-PRS | Evidence snapshot",
+  "schema_version": "1",
+  "created_on": "2026-09-29"
+}
