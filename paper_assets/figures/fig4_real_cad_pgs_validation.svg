@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#2f80ed" />
+  </marker>
+</defs>
+<rect width="1100" height="560" fill="#f8fafc"/>
+<text x="550.0" y="45.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2933">PGS004941 chr22 compatibility validation</text>
+<rect x="70" y="115" width="230" height="110" rx="8" fill="#eef6ff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="185.0" y="146.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">PGS004941</text>
+<text x="185.0" y="173.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Coronary artery disease</text>
+<text x="185.0" y="193.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">GRCh37 scoring file</text>
+<rect x="370" y="115" width="230" height="110" rx="8" fill="#ffffff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="485.0" y="146.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">SQLite VCF cache</text>
+<text x="485.0" y="173.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">1,055,454 chr22 SNPs</text>
+<text x="485.0" y="193.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">32 selected samples</text>
+<rect x="670" y="115" width="180" height="110" rx="8" fill="#f0fff4" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="760.0" y="146.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">Matched SNPs</text>
+<text x="760.0" y="173.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">51,227</text>
+<text x="760.0" y="193.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">allele-compatible</text>
+<rect x="910" y="115" width="140" height="110" rx="8" fill="#fffbea" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="980.0" y="146.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">CKKS scaling</text>
+<text x="980.0" y="173.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">512-4,096</text>
+<text x="980.0" y="193.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">SNP subsets</text>
+<line x1="300" y1="170" x2="370" y2="170" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="600" y1="170" x2="670" y2="170" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="850" y1="170" x2="910" y2="170" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="95" y="285" width="910" height="170" rx="8" fill="#ffffff" stroke="#9fb3c8"/>
+<text x="190.0" y="317.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2933">Run</text>
+<text x="337.5" y="317.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2933">Samples</text>
+<text x="457.5" y="317.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2933">SNPs</text>
+<text x="602.5" y="317.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2933">Match sec</text>
+<text x="757.5" y="317.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2933">Eval sec</text>
+<text x="920.0" y="317.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#1f2933">Max error</text>
+<text x="190.0" y="347.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Full chr22</text>
+<text x="337.5" y="347.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">32</text>
+<text x="457.5" y="347.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">51,227</text>
+<text x="602.5" y="347.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">1.936398</text>
+<text x="757.5" y="347.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">-</text>
+<text x="920.0" y="347.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">-</text>
+<text x="190.0" y="372.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">CKKS 512</text>
+<text x="337.5" y="372.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">32</text>
+<text x="457.5" y="372.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">512</text>
+<text x="602.5" y="372.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0.043093</text>
+<text x="757.5" y="372.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0.340483</text>
+<text x="920.0" y="372.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">2.49e-06</text>
+<text x="190.0" y="397.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">CKKS 1,024</text>
+<text x="337.5" y="397.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">32</text>
+<text x="457.5" y="397.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">1,024</text>
+<text x="602.5" y="397.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0.044361</text>
+<text x="757.5" y="397.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0.446604</text>
+<text x="920.0" y="397.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">1.46e-06</text>
+<text x="190.0" y="422.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">CKKS 2,048</text>
+<text x="337.5" y="422.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">32</text>
+<text x="457.5" y="422.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">2,048</text>
+<text x="602.5" y="422.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0.088446</text>
+<text x="757.5" y="422.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0.499111</text>
+<text x="920.0" y="422.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">1.93e-06</text>
+<text x="190.0" y="447.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">CKKS 4,096</text>
+<text x="337.5" y="447.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">32</text>
+<text x="457.5" y="447.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">4,096</text>
+<text x="602.5" y="447.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0.157311</text>
+<text x="757.5" y="447.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0.424159</text>
+<text x="920.0" y="447.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">1.08e-06</text>
+<text x="550.0" y="505.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">A real CAD scoring file is matched to public chr22 dosages and evaluated under CKKS pilot subsets.</text>
+</svg>

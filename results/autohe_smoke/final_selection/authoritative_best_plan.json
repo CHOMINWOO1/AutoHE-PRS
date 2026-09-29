@@ -1,0 +1,213 @@
+{
+  "constraints": {
+    "max_absolute_error": 1e-05,
+    "max_latency_seconds": null,
+    "max_memory_mb": 32768,
+    "max_relative_error": 0.001,
+    "require_decryption_success": true,
+    "security_bits": 128
+  },
+  "objective": "evaluation_latency",
+  "selected_measurement": {
+    "ciphertext_bytes": 14728728,
+    "communication_bytes": 14728728,
+    "evaluation_seconds": 0.35859223599982215,
+    "failure_types": [],
+    "key_bytes": 7217382,
+    "key_bytes_scope": "public+secret+multiplication+rotation",
+    "max_absolute_error": 3.294647896515124e-10,
+    "max_relative_error": 4.082738221206128e-08,
+    "peak_memory_mb": 78.1328125,
+    "plan": {
+      "batch_size": 4096,
+      "chunk_aggregation_strategy": "add_then_reduce",
+      "chunk_count": 13,
+      "encoding_precision": null,
+      "feature_packing": true,
+      "first_modulus_size": 50,
+      "fixed_point_scaling_factor": null,
+      "key_switching_technique": "BV",
+      "metadata": {},
+      "multiplicative_depth": 1,
+      "plaintext_modulus": null,
+      "reduction_tree_strategy": "binary_tree",
+      "rescale_strategy": "automatic",
+      "ring_dimension": 8192,
+      "rotation_indices": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "sample_packing": false,
+      "samples_per_ciphertext": 1,
+      "scale_bits": 50,
+      "scaling_modulus_size": 50,
+      "scaling_technique": "FLEXIBLEAUTO",
+      "scheme": "CKKS",
+      "score_packing": false,
+      "scores_per_ciphertext": 1,
+      "security_bits": 128,
+      "slot_count": 4096,
+      "value_bound_policy": "conservative_l1",
+      "variants_per_ciphertext": 4096,
+      "window_size": 4096
+    },
+    "predicted_rank": 2,
+    "predicted_targets": {
+      "ciphertext_bytes": 19603395.602926727,
+      "evaluation_seconds": 2.348642975155204,
+      "key_bytes": 787972.7508863058,
+      "max_absolute_error": 0.0,
+      "total_seconds": 2.69631319345112
+    },
+    "prediction_target_scopes": {
+      "key_bytes": "legacy_context+public_key_proxy"
+    },
+    "repeat_count": 3,
+    "scheme": "CKKS",
+    "search_stages": [
+      "top_k_actual_validation"
+    ],
+    "selection_status": "measured_and_validated",
+    "statistics": {
+      "ciphertext_bytes": {
+        "count": 3,
+        "maximum": 14728728.0,
+        "mean": 14728728.0,
+        "median": 14728728.0,
+        "minimum": 14728728.0,
+        "standard_deviation": 0.0
+      },
+      "communication_bytes": {
+        "count": 3,
+        "maximum": 14728728.0,
+        "mean": 14728728.0,
+        "median": 14728728.0,
+        "minimum": 14728728.0,
+        "standard_deviation": 0.0
+      },
+      "evaluation_seconds": {
+        "count": 3,
+        "maximum": 0.3774069959999906,
+        "mean": 0.33429400366609724,
+        "median": 0.35859223599982215,
+        "minimum": 0.2668827789984789,
+        "standard_deviation": 0.05913293250682795
+      },
+      "key_bytes": {
+        "count": 3,
+        "maximum": 7217382.0,
+        "mean": 7217382.0,
+        "median": 7217382.0,
+        "minimum": 7217382.0,
+        "standard_deviation": 0.0
+      },
+      "max_absolute_error": {
+        "count": 3,
+        "maximum": 5.282711074139357e-10,
+        "mean": 3.7983372668202547e-10,
+        "median": 3.294647896515124e-10,
+        "minimum": 2.817652829806283e-10,
+        "standard_deviation": 1.3074422638523655e-10
+      },
+      "max_relative_error": {
+        "count": 3,
+        "maximum": 4.773897177901598e-08,
+        "mean": 3.937365640309922e-08,
+        "median": 4.082738221206128e-08,
+        "minimum": 2.9554615218220415e-08,
+        "standard_deviation": 9.178926676266073e-09
+      },
+      "peak_memory_mb": {
+        "count": 3,
+        "maximum": 78.2890625,
+        "mean": 77.99348958333333,
+        "median": 78.1328125,
+        "minimum": 77.55859375,
+        "standard_deviation": 0.3846482874172467
+      },
+      "total_seconds": {
+        "count": 3,
+        "maximum": 1.0081751059988164,
+        "mean": 0.9656862613325453,
+        "median": 0.9871056279989716,
+        "minimum": 0.901778049999848,
+        "standard_deviation": 0.056339820132877735
+      }
+    },
+    "status": "ok",
+    "successful_repeats": 3,
+    "total_seconds": 0.9871056279989716
+  },
+  "selected_plan": {
+    "batch_size": 4096,
+    "chunk_aggregation_strategy": "add_then_reduce",
+    "chunk_count": 13,
+    "encoding_precision": null,
+    "feature_packing": true,
+    "first_modulus_size": 50,
+    "fixed_point_scaling_factor": null,
+    "key_switching_technique": "BV",
+    "metadata": {},
+    "multiplicative_depth": 1,
+    "plaintext_modulus": null,
+    "reduction_tree_strategy": "binary_tree",
+    "rescale_strategy": "automatic",
+    "ring_dimension": 8192,
+    "rotation_indices": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "sample_packing": false,
+    "samples_per_ciphertext": 1,
+    "scale_bits": 50,
+    "scaling_modulus_size": 50,
+    "scaling_technique": "FLEXIBLEAUTO",
+    "scheme": "CKKS",
+    "score_packing": false,
+    "scores_per_ciphertext": 1,
+    "security_bits": 128,
+    "slot_count": 4096,
+    "value_bound_policy": "conservative_l1",
+    "variants_per_ciphertext": 4096,
+    "window_size": 4096
+  },
+  "selection_status": "measured_and_validated",
+  "workload_features": {
+    "expected_score_bound": 2.6785683955850326,
+    "genotype_encoding_type": "hard_call",
+    "genotype_max": 2.0,
+    "genotype_min": 0.0,
+    "imputed_dosage": false,
+    "matched_variant_count": 51225,
+    "max_absolute_weight": 0.00701646802824917,
+    "missing_rate": 0.0,
+    "sample_count": 4,
+    "score_count": 1,
+    "score_overlap_ratio": 1.0,
+    "score_sparsity": 0.14832601268911663,
+    "sum_absolute_weights": 1.3392841977925163,
+    "weight_decimal_precision": 15,
+    "weight_mean": 1.2294348950113086e-06,
+    "weight_standard_deviation": 8.363501837685296e-05
+  }
+}

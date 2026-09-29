@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#2f80ed" />
+  </marker>
+</defs>
+<rect width="1200" height="360" fill="#f8fafc"/>
+<text x="600.0" y="50.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2933">Figure 1. Privacy-preserving encrypted PRS workflow</text>
+<rect x="45" y="120" width="160" height="95" rx="8" fill="#eef6ff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="125.0" y="151.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">Data owner</text>
+<text x="125.0" y="178.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Genotype dosage</text>
+<text x="125.0" y="198.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0/1/2</text>
+<rect x="245" y="120" width="160" height="95" rx="8" fill="#f0fff4" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="325.0" y="151.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">CKKS encrypt</text>
+<text x="325.0" y="178.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Secret key stays</text>
+<text x="325.0" y="198.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">with owner</text>
+<rect x="445" y="120" width="160" height="95" rx="8" fill="#ffffff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="525.0" y="151.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">Server</text>
+<text x="525.0" y="178.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">No raw genotype</text>
+<text x="525.0" y="198.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">No secret key</text>
+<rect x="645" y="120" width="180" height="95" rx="8" fill="#ffffff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="735.0" y="151.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">Encrypted dot</text>
+<text x="735.0" y="178.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Enc(g) · w</text>
+<text x="735.0" y="198.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">PRS under CKKS</text>
+<rect x="865" y="120" width="150" height="95" rx="8" fill="#fffbea" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="940.0" y="151.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">Enc(PRS)</text>
+<text x="940.0" y="178.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Encrypted</text>
+<text x="940.0" y="198.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">result</text>
+<rect x="1050" y="120" width="120" height="95" rx="8" fill="#f0fff4" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="1110.0" y="151.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">Decrypt</text>
+<text x="1110.0" y="178.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">PRS score</text>
+<line x1="205" y1="167.5" x2="245" y2="167.5" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="405" y1="167.5" x2="445" y2="167.5" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="605" y1="167.5" x2="645" y2="167.5" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="825" y1="167.5" x2="865" y2="167.5" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="1015" y1="167.5" x2="1050" y2="167.5" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="600.0" y="285.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2933">The analysis server computes PRS without seeing genotype dosage or decrypted PRS.</text>
+</svg>

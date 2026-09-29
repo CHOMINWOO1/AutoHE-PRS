@@ -1,0 +1,13 @@
+.git
+.venv*
+.agents
+data
+results
+models
+outputs
+reports
+generated
+submission
+paper_assets
+__pycache__
+*.pyc

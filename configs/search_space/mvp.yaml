@@ -1,0 +1,39 @@
+search_space:
+  schemes:
+    - CKKS
+    - BFV
+    - BGV
+  ring_dimensions:
+    - 8192
+    - 16384
+    - 32768
+  window_sizes:
+    - 512
+    - 1024
+    - 2048
+    - 4096
+  scaling_modulus_sizes:
+    - 40
+    - 50
+  first_modulus_sizes:
+    - 50
+    - 60
+  scaling_techniques:
+    - FLEXIBLEAUTO
+    - FIXEDAUTO
+  fixed_point_scales:
+    - 100000
+    - 1000000
+    - 10000000
+    - 100000000
+  plaintext_moduli:
+    - 2147352577
+  aggregation_strategies:
+    - reduce_then_add
+    - add_then_reduce
+  reduction_strategies:
+    - binary_tree
+    - eval_sum
+  key_switching_techniques:
+    - HYBRID
+    - BV

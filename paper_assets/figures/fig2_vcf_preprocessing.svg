@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#2f80ed" />
+  </marker>
+</defs>
+<rect width="1200" height="380" fill="#f8fafc"/>
+<text x="600.0" y="52.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2933">Figure 2. Public VCF preprocessing and dosage extraction</text>
+<rect x="55" y="130" width="145" height="90" rx="8" fill="#eef6ff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="127.5" y="161.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">chr22 VCF</text>
+<text x="127.5" y="188.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">1000 Genomes</text>
+<text x="127.5" y="208.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Phase 3</text>
+<rect x="235" y="130" width="160" height="90" rx="8" fill="#ffffff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="315.0" y="161.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">SNP filter</text>
+<text x="315.0" y="188.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Biallelic</text>
+<text x="315.0" y="208.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">SNP only</text>
+<rect x="430" y="130" width="150" height="90" rx="8" fill="#ffffff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="505.0" y="161.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">GT parsing</text>
+<text x="505.0" y="188.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0|1, 1|1</text>
+<text x="505.0" y="208.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">→ dosage</text>
+<rect x="615" y="130" width="165" height="90" rx="8" fill="#ffffff" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="697.5" y="161.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">MAC filter</text>
+<text x="697.5" y="188.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Minor allele</text>
+<text x="697.5" y="208.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">count ≥ 1</text>
+<rect x="815" y="130" width="160" height="90" rx="8" fill="#f0fff4" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="895.0" y="161.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">Dosage matrix</text>
+<text x="895.0" y="188.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">samples × SNPs</text>
+<text x="895.0" y="208.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">0/1/2</text>
+<rect x="1010" y="130" width="135" height="90" rx="8" fill="#fffbea" stroke="#9fb3c8" stroke-width="1.5"/>
+<text x="1077.5" y="161.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2933">PRS run</text>
+<text x="1077.5" y="188.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">Plaintext</text>
+<text x="1077.5" y="208.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2933">or CKKS</text>
+<line x1="200" y1="175.0" x2="235" y2="175.0" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="395" y1="175.0" x2="430" y2="175.0" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="580" y1="175.0" x2="615" y2="175.0" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="780" y1="175.0" x2="815" y2="175.0" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="975" y1="175.0" x2="1010" y2="175.0" stroke="#2f80ed" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="600.0" y="292.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="15" font-weight="400" fill="#1f2933">Only compatible biallelic SNPs are kept for reproducible pilot-scale PRS experiments.</text>
+</svg>

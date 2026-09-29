@@ -1,0 +1,4 @@
+scheme,ring_dimension_N,cyclotomic_order_M,batch_size,multiplicative_depth,ciphertext_modulus_Q_approx,log2_Q_approx,plaintext_modulus,ckks_scaling_mod_size,bfv_bgv_fixed_point_scale,ckks_first_modulus,ckks_first_modulus_bits_approx
+CKKS,16384,32768,4096,1,7.231013285388e+38,129.087,,50,,1152921504606748673,60.000
+BFV,16384,32768,4096,1,1.329227995785e+36,120.000,2147352577,,10000000,,
+BGV,16384,32768,4096,1,2.076950435827e+34,114.000,2147352577,,10000000,,

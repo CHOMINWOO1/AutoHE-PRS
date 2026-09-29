@@ -1,0 +1,5 @@
+samples,snps,backend,backend_status,data_seconds,plain_prs_seconds,count_seconds,encrypted_prs_seconds,max_abs_error,prs_mean,prs_sd,prs_min,prs_max,first_snp_allele_count,first_snp_control_count,first_snp_case_count
+128,2048,plaintext,plaintext_only,0.027232,0.006020,0.010177,,,0.16123465,0.29152703,-0.53773187,1.07779823,127,66,61
+16,128,tenseal,tenseal_unavailable: TenSEAL is not installed. Install requirements.txt in Python 3.10/3.11.,0.000370,0.000061,0.000110,,,0.10582310,0.10189732,0.00000000,0.22265164,14,7,7
+16,128,tenseal,tenseal_ok,0.000343,0.000060,0.000098,2.093982399906963,5.488328480522946e-07,0.10582310,0.10189732,0.00000000,0.22265164,14,7,7
+32,512,tenseal,tenseal_ok,0.002441,0.000454,0.000797,0.6665203999727964,1.0768121548876408e-06,-0.15621846,0.16455254,-0.47291501,0.26192938,26,15,11

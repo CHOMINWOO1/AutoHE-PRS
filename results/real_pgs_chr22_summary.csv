@@ -1,0 +1,2 @@
+pgs_id,trait_reported,trait_mapped,genome_build,chrom,samples,matched_snps,requested_weights_on_chrom,skipped_allele_mismatch,backend,status,match_mode,read_pgs_seconds,match_vcf_seconds,plain_prs_seconds,encryption_seconds,evaluation_seconds,decryption_seconds,max_abs_error,prs_mean,prs_sd,prs_min,prs_max,first_variant
+PGS000348,Prostate cancer,prostate carcinoma,GRCh37,22,32,1,1,0,tenseal,tenseal_ok,sqlite_cache,0.000849,0.000617,0.000010,0.078987,0.028451,0.014171,3.93538850951e-08,0.15723219,0.09077804,0.00000000,0.27952388,22:43500212:G>T

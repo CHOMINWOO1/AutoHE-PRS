@@ -1,0 +1,3 @@
+# Baseline experiments use only the Python standard library.
+# Install requirements-he.txt in a Python 3.10/3.11 environment for HE backends.
+

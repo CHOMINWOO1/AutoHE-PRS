@@ -1,0 +1,31 @@
+{
+  "description": "PGS004941 chr22 / 1000 Genomes Phase 3, first four samples, hard-call GT",
+  "inputs": {
+    "pgs_path": "data/pgs_catalog/PGS004941/PGS004941.txt.gz",
+    "pgs_sha256": "6f31b2b3fa4b29f74560acef2ccd0456067feeb45bfaadd8e961f18ee34eb8c7",
+    "vcf_path": "data/1000genomes/phase3/ALL.chr22.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz",
+    "vcf_sha256": "a90c16c4ff2b3196476d506ae13cb3047fae8670163c7c932c4b0239aef3daf5"
+  },
+  "outputs": {
+    "dosage_path": "data/autohe_smoke/pgs004941_chr22/dosage.csv",
+    "dosage_sha256": "f0d91d0d7b66e88a3d8f5b49e24d8a3c863d675d7fe496ec94549fbda375fa36",
+    "weights_path": "data/autohe_smoke/pgs004941_chr22/weights.csv",
+    "weights_sha256": "d355ce44afbf484c4c5c9da056a38073d98ee947509041561558c7c01dea55be"
+  },
+  "harmonization": {
+    "alt_oriented_variants": 4048,
+    "duplicate_variants": 2,
+    "final_scored_variants": 51225,
+    "multiallelic_exclusions": 164,
+    "ref_oriented_variants": 47177,
+    "total_pgs_variants": 3711629,
+    "vcf_only_variants": 1052156
+  },
+  "plaintext_scores": {
+    "HG00096": -0.017874403152041602,
+    "HG00097": -0.006901380096257772,
+    "HG00099": 0.026931796023706808,
+    "HG00100": 0.0047631991680389145
+  },
+  "window_4096_chunk_count": 13
+}

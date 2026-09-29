@@ -1,0 +1,30 @@
+workload:
+  operation: prs_weighted_sum
+  genotype_path: data/autohe_smoke/pgs004941_chr22/dosage.csv
+  weight_path: data/autohe_smoke/pgs004941_chr22/weights.csv
+  genotype_encoding: hard_call
+  variants: 51225
+  samples: 4
+  scores: 1
+  missing_policy: exclude_variant
+  genome_build: GRCh37
+
+constraints:
+  security_bits: 128
+  max_absolute_error: 1.0e-5
+  max_relative_error: 1.0e-3
+  max_memory_mb: 32768
+  max_latency_seconds: null
+  require_decryption_success: true
+
+optimization:
+  objective: evaluation_latency
+  allowed_schemes:
+    - CKKS
+    - BFV
+    - BGV
+  top_k_validation: 3
+  use_bayesian_refinement: false
+
+hardware:
+  profile: local_cpu
